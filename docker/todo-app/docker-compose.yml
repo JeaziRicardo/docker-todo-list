@@ -1,0 +1,11 @@
+version: '3'
+services:
+  todotests:
+    build: tests/
+
+  todofrontend:
+    build: front-end/
+
+  todobackend:
+    build: back-end/
+
